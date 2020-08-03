@@ -25,7 +25,8 @@ var renderHTML = function renderHTML(component, specifiedOptions) {
   var options = Object.assign(defaultOptions, specifiedOptions);
   var markup = _server2.default.renderToStaticMarkup(component);
   var markupWithComments = markup.replace(/<(template) data-comment\b[^>]*>(.*?)<\/\1>/gm, '$2');
-  var renderedHTML = (0, _juice2.default)(markupWithComments, options);
+  var markupWithoutEscapedSpaces = markupWithComments.replace(/\xA0/g, '&nbsp;');
+  var renderedHTML = (0, _juice2.default)(markupWithoutEscapedSpaces, options);
 
   return renderedHTML;
 };

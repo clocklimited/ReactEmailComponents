@@ -1,0 +1,29 @@
+//
+// BASE STYLES
+// ===========
+//
+
+
+html, body, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+th {
+  font-weight: normal;
+}
+
+td, th {
+  vertical-align: top;
+}
