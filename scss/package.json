@@ -1,6 +1,6 @@
 {
   "name": "clock-react-email-components-scss",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "main": "lib/clock-react-email-components-scss.js",
   "author": "Kenan Yusuf",
   "license": "ISC"

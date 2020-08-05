@@ -1,6 +1,6 @@
 {
   "name": "clock-react-email-components",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "main": "./dist/clock-react-email-components.js",
   "author": "Kenan Yusuf",
   "license": "ISC",
@@ -10,8 +10,7 @@
     "object-assign": "4.1.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-render-html": "^0.6.0",
-    "sass": "^1.26.10"
+    "react-render-html": "^0.6.0"
   },
   "devDependencies": {
     "autoprefixer": "7.1.6",
@@ -44,6 +43,7 @@
     "promise": "8.0.1",
     "raf": "3.4.0",
     "react-dev-utils": "^5.0.0",
+    "sass": "^1.26.10",
     "style-loader": "^0.19.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
